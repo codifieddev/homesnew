@@ -1,0 +1,27 @@
+{
+  "sidebar": {
+    "mainMenu": "मुख्य मेनू",
+    "overview": "ओवरव्यू",
+    "properties": "प्रॉपर्टीज",
+    "enquiries": "एन्क्वायरीज़",
+    "leads": "लीड्स",
+    "siteVisits": "साइट विज़िट्स",
+    "companies": "कंपनियां",
+    "caseStudies": "केस स्टडीज़",
+    "microsites": "माइक्रोसाइट्स",
+    "analytics": "एनालिटिक्स",
+    "settings": "सेटिंग्स",
+    "viewPublicSite": "पब्लिक साइट देखें"
+  },
+  "header": {
+    "title": "Homes एडमिन",
+    "signedInAs": "साइन इन किया गया है",
+    "notifications": "नोटिफिकेशंस"
+  },
+  "roles": {
+    "super_admin": "सुपर एडमिन",
+    "admin": "एडमिनिस्ट्रेटर",
+    "agent": "सेल्स एजेंट",
+    "company_manager": "कंपनी मैनेजर"
+  }
+}

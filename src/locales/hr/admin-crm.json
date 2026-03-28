@@ -1,0 +1,67 @@
+{
+  "enquiries": {
+    "title": "Enquiry Inbox",
+    "description": "Review public form submissions and convert them to leads.",
+    "total": "{count} total",
+    "tabs": {
+      "new": "New",
+      "reviewed": "Reviewed",
+      "converted": "Converted",
+      "all": "All"
+    },
+    "actions": {
+      "spam": "Spam",
+      "review": "Review",
+      "convert": "Convert to Lead",
+      "converted": "Converted"
+    },
+    "filters": {
+      "allCompanies": "All companies",
+      "allMicrosites": "All microsites",
+      "allSources": "All sources"
+    },
+    "labels": {
+      "via": "via",
+      "justNow": "just now",
+      "mAgo": "{count}m ago",
+      "hAgo": "{count}h ago",
+      "dAgo": "{count}d ago"
+    }
+  },
+  "leads": {
+    "title": "Leads Pipeline",
+    "description": "Move qualified prospects through your active sales pipeline.",
+    "empty": "No leads",
+    "move": "Move",
+    "markLost": "Mark Lost",
+    "addLead": "Add Lead",
+    "filters": {
+      "allCompanies": "All companies",
+      "allMicrosites": "All microsites",
+      "allSources": "All sources"
+    }
+  },
+  "siteVisits": {
+    "title": "Site Visits",
+    "description": "Track and manage scheduled property walkthroughs.",
+    "tabs": {
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "no_show": "No Show",
+      "all": "All"
+    },
+    "filters": {
+      "allCompanies": "All companies",
+      "allMicrosites": "All microsites",
+      "allSources": "All sources"
+    },
+    "actions": {
+      "completed": "Completed",
+      "noShow": "No Show",
+      "cancel": "Cancel"
+    },
+    "labels": {
+      "outcome": "Outcome"
+    }
+  }
+}

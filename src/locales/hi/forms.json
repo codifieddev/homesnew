@@ -1,0 +1,29 @@
+{
+  "enquiry": {
+    "namePlaceholder": "पूरा नाम *",
+    "phonePlaceholder": "फ़ोन / व्हाट्सऐप *",
+    "emailPlaceholder": "ईमेल पता (वैकल्पिक)",
+    "messagePlaceholder": "अपनी आवश्यकता लिखें…",
+    "siteVisit": "मैं साइट विज़िट शेड्यूल करना चाहता/चाहती हूं",
+    "homeLoan": "मुझे होम लोन सहायता चाहिए",
+    "submitting": "सबमिट हो रहा है…",
+    "submit": "एन्क्वायरी भेजें",
+    "footer": "हम 2–4 घंटों में जवाब देते हैं · कोई स्पैम नहीं।",
+    "successTitle": "एन्क्वायरी प्राप्त हुई!",
+    "successDescription": "हम कार्यदिवसों में 2–4 घंटों के भीतर संपर्क करेंगे।",
+    "successAction": "एक और एन्क्वायरी भेजें"
+  },
+  "login": {
+    "title": "फिर से स्वागत है",
+    "description": "अपने एडमिन डैशबोर्ड में साइन इन करें",
+    "emailLabel": "ईमेल पता",
+    "passwordLabel": "पासवर्ड",
+    "emailPlaceholder": "admin@homes.in",
+    "passwordPlaceholder": "••••••••",
+    "submit": "डैशबोर्ड में साइन इन करें",
+    "submitting": "साइन इन हो रहा है…",
+    "magicTitle": "टेस्ट मोड: मैजिक लॉगिन",
+    "magicButton": "मैजिक लॉगिन उपयोग करें",
+    "botCheck": "बॉट जांच"
+  }
+}

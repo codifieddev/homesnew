@@ -1,0 +1,29 @@
+{
+  "links": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "projects": "Projects",
+    "companies": "Companies",
+    "caseStudies": "Case Studies"
+  },
+  "projects": {
+    "menuLabel": "Projects",
+    "viewAll": "View all projects",
+    "allLabel": "All Projects"
+  },
+  "cta": {
+    "bookSiteVisit": "Book Site Visit",
+    "bookVisitShort": "Book Visit"
+  },
+  "meta": {
+    "location": "Lucknow, Uttar Pradesh",
+    "verified": "RERA Verified Properties",
+    "viewPublicSite": "View Public Site"
+  },
+  "mobile": {
+    "projects": "Projects"
+  }
+}

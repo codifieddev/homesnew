@@ -1,0 +1,29 @@
+{
+  "links": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "services": "सेवाएं",
+    "blogs": "ब्लॉग्स",
+    "contact": "संपर्क",
+    "projects": "प्रोजेक्ट्स",
+    "companies": "कंपनियां",
+    "caseStudies": "केस स्टडीज़"
+  },
+  "projects": {
+    "menuLabel": "प्रोजेक्ट्स",
+    "viewAll": "सभी प्रोजेक्ट्स देखें",
+    "allLabel": "सभी प्रोजेक्ट्स"
+  },
+  "cta": {
+    "bookSiteVisit": "साइट विज़िट बुक करें",
+    "bookVisitShort": "विज़िट बुक करें"
+  },
+  "meta": {
+    "location": "लखनऊ, उत्तर प्रदेश",
+    "verified": "RERA सत्यापित प्रॉपर्टीज",
+    "viewPublicSite": "पब्लिक साइट देखें"
+  },
+  "mobile": {
+    "projects": "प्रोजेक्ट्स"
+  }
+}

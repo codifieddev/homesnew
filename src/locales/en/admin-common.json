@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your account and system configuration.",
+    "tabs": {
+      "profile": "Profile",
+      "security": "Security",
+      "team": "Team",
+      "localization": "Localization",
+      "experience": "Experience",
+      "system": "System"
+    },
+    "profile": {
+      "title": "Account Profile",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "role": "Role",
+      "userId": "User ID",
+      "help": "Contact your system administrator to update profile information."
+    },
+    "security": {
+      "title": "Change Password",
+      "current": "Current Password",
+      "new": "New Password",
+      "confirm": "Confirm New Password",
+      "update": "Update Password",
+      "requirements": "Password requirements:",
+      "requirementOne": "At least 8 characters",
+      "requirementTwo": "One uppercase letter",
+      "requirementThree": "One number",
+      "requirementFour": "One special character",
+      "infoTitle": "Security Info",
+      "infoOne": "Passwords are hashed with bcrypt (cost factor 12) and never stored in plaintext.",
+      "infoTwo": "Sessions use JWT tokens — valid for 30 days. Signing out invalidates the session.",
+      "infoThree": "All admin routes require authentication. Unauthorized access attempts are rejected at the edge."
+    },
+    "team": {
+      "title": "Team Members",
+      "members": "{count} members",
+      "empty": "No team members found.",
+      "help": "To add new team members, use the seed script or MongoDB Compass to insert a new user document with a bcrypt-hashed password."
+    },
+    "localization": {
+      "title": "Localization Runtime",
+      "description": "Control active locales, default language, and translation coverage visibility.",
+      "defaultLocale": "Default Locale",
+      "enabledLocales": "Enabled Locales",
+      "localeOrder": "Locale Order",
+      "registryTitle": "Translation Registry",
+      "namespace": "Namespace",
+      "status": "Status",
+      "missing": "Missing keys",
+      "extra": "Extra keys",
+      "healthy": "Healthy"
+    },
+    "experience": {
+      "title": "Public Experience Template",
+      "description": "Choose between the restrained classic presentation and the premium animated presentation.",
+      "activeTemplate": "Active Template"
+    },
+    "system": {
+      "systemInfoTitle": "System Information",
+      "businessTitle": "Business Configuration",
+      "envHelp": "Business configuration is managed via environment variables in .env.local."
+    }
+  }
+}

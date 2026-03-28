@@ -1,0 +1,11 @@
+{
+  "page": {
+    "eyebrow": "Companies",
+    "title": "Builders and Listing Partners We Work With",
+    "description": "Company profiles on Homes connect verified properties, proof-led case studies, and shared enquiry routing so every listing has accountable context behind it."
+  },
+  "card": {
+    "fallbackIntro": "See linked listings, case studies, and Homes-led positioning work for this company.",
+    "cta": "View company profile"
+  }
+}

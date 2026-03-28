@@ -1,0 +1,27 @@
+{
+  "sidebar": {
+    "mainMenu": "Main Menu",
+    "overview": "Overview",
+    "properties": "Properties",
+    "enquiries": "Enquiries",
+    "leads": "Leads",
+    "siteVisits": "Site Visits",
+    "companies": "Companies",
+    "caseStudies": "Case Studies",
+    "microsites": "Microsites",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "viewPublicSite": "View Public Site"
+  },
+  "header": {
+    "title": "Homes Admin",
+    "signedInAs": "Signed in as",
+    "notifications": "Notifications"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "admin": "Administrator",
+    "agent": "Sales Agent",
+    "company_manager": "Company Manager"
+  }
+}

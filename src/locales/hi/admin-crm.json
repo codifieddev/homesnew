@@ -1,0 +1,67 @@
+{
+  "enquiries": {
+    "title": "एन्क्वायरी इनबॉक्स",
+    "description": "पब्लिक फॉर्म submissions की समीक्षा करें और उन्हें leads में बदलें।",
+    "total": "{count} कुल",
+    "tabs": {
+      "new": "नई",
+      "reviewed": "समीक्षित",
+      "converted": "कन्वर्टेड",
+      "all": "सभी"
+    },
+    "actions": {
+      "spam": "स्पैम",
+      "review": "रिव्यू",
+      "convert": "लीड में बदलें",
+      "converted": "कन्वर्टेड"
+    },
+    "filters": {
+      "allCompanies": "सभी कंपनियां",
+      "allMicrosites": "सभी माइक्रोसाइट्स",
+      "allSources": "सभी स्रोत"
+    },
+    "labels": {
+      "via": "स्रोत",
+      "justNow": "अभी",
+      "mAgo": "{count}मि पहले",
+      "hAgo": "{count}घं पहले",
+      "dAgo": "{count}दि पहले"
+    }
+  },
+  "leads": {
+    "title": "लीड पाइपलाइन",
+    "description": "योग्य prospects को सक्रिय sales pipeline में आगे बढ़ाएं।",
+    "empty": "कोई lead नहीं",
+    "move": "मूव",
+    "markLost": "लॉस्ट मार्क करें",
+    "addLead": "लीड जोड़ें",
+    "filters": {
+      "allCompanies": "सभी कंपनियां",
+      "allMicrosites": "सभी माइक्रोसाइट्स",
+      "allSources": "सभी स्रोत"
+    }
+  },
+  "siteVisits": {
+    "title": "साइट विज़िट्स",
+    "description": "शेड्यूल की गई property walkthroughs को ट्रैक और प्रबंधित करें।",
+    "tabs": {
+      "scheduled": "शेड्यूल्ड",
+      "completed": "पूर्ण",
+      "no_show": "नहीं आए",
+      "all": "सभी"
+    },
+    "filters": {
+      "allCompanies": "सभी कंपनियां",
+      "allMicrosites": "सभी माइक्रोसाइट्स",
+      "allSources": "सभी स्रोत"
+    },
+    "actions": {
+      "completed": "पूर्ण",
+      "noShow": "नहीं आए",
+      "cancel": "रद्द करें"
+    },
+    "labels": {
+      "outcome": "परिणाम"
+    }
+  }
+}

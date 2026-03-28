@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "eyebrow": "Our Story",
+    "titleLine1": "Guiding You",
+    "titleHighlight": "Every Step",
+    "titleLine2": "of the Way.",
+    "description": "Homes was built on a single premise — property buyers in Lucknow deserved better. Better information, better legal clarity, and an advisor who actually works for them."
+  },
+  "stats": {
+    "families": "Families Served",
+    "projects": "Active Projects",
+    "verified": "RERA Verified",
+    "rating": "Client Rating"
+  },
+  "story": {
+    "eyebrow": "Who We Are",
+    "title": "A Consultancy Built on Relationships, Not Commissions",
+    "paragraphOne": "Homes operates as a strategic intermediary and brokerage — connecting prospective homebuyers and institutional investors with residential assets developed by trusted builders across Uttar Pradesh.",
+    "paragraphTwo": "We serve three fundamental needs: helping buyers find the right property, arranging site visits at their convenience, and providing fair, unbiased home loan guidance through partner banks.",
+    "paragraphThree": "Our office is in Sushant Golf City, Lucknow — the heart of the city's most active residential corridors. Every property we list, we know personally."
+  },
+  "values": {
+    "oneTitle": "Full Transparency",
+    "oneDesc": "Pricing, RERA IDs, stamp duty estimates, and legal clearance status — every listing is fully documented.",
+    "twoTitle": "Zero Commission Conflict",
+    "twoDesc": "We earn only when the right property matches the right buyer. No pressure, no inflated listings.",
+    "threeTitle": "RERA-First",
+    "threeDesc": "We list only RERA-registered projects or verified resale properties with clear title. Compliance is non-negotiable.",
+    "fourTitle": "Buyer Advocacy",
+    "fourDesc": "We work for the buyer, not the builder. Every recommendation is made with your long-term interest in mind."
+  },
+  "team": {
+    "eyebrow": "Our Team",
+    "founderRole": "Founder & Principal Advisor",
+    "founderBio": "With over a decade of experience in Uttar Pradesh real estate, Maneesh has guided hundreds of families and investors to the right property. Director at Shalu Homes Pvt. Ltd. and ESOS Tech LLP.",
+    "advisoryRole": "Property Consultants",
+    "advisoryBio": "Our advisory team specialises in residential plots, high-rise apartments, and villa developments across Lucknow's fastest-growing corridors."
+  },
+  "proof": {
+    "eyebrow": "Partner Proof",
+    "featuredStory": "Featured Story",
+    "readCaseStudy": "Read case study"
+  },
+  "compliance": {
+    "title": "Our Compliance Commitment",
+    "one": "UP-RERA Registered",
+    "two": "GST Compliant",
+    "three": "LDA Approved Projects",
+    "four": "SBI / HDFC Approved"
+  }
+}

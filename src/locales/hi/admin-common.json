@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "title": "सेटिंग्स",
+    "description": "अपने अकाउंट और सिस्टम कॉन्फ़िगरेशन को प्रबंधित करें।",
+    "tabs": {
+      "profile": "प्रोफाइल",
+      "security": "सुरक्षा",
+      "team": "टीम",
+      "localization": "लोकलाइज़ेशन",
+      "experience": "अनुभव",
+      "system": "सिस्टम"
+    },
+    "profile": {
+      "title": "अकाउंट प्रोफाइल",
+      "fullName": "पूरा नाम",
+      "email": "ईमेल पता",
+      "role": "भूमिका",
+      "userId": "यूज़र आईडी",
+      "help": "प्रोफाइल जानकारी अपडेट करने के लिए सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।"
+    },
+    "security": {
+      "title": "पासवर्ड बदलें",
+      "current": "वर्तमान पासवर्ड",
+      "new": "नया पासवर्ड",
+      "confirm": "नए पासवर्ड की पुष्टि करें",
+      "update": "पासवर्ड अपडेट करें",
+      "requirements": "पासवर्ड आवश्यकताएं:",
+      "requirementOne": "कम से कम 8 अक्षर",
+      "requirementTwo": "एक अपरकेस अक्षर",
+      "requirementThree": "एक संख्या",
+      "requirementFour": "एक विशेष अक्षर",
+      "infoTitle": "सुरक्षा जानकारी",
+      "infoOne": "पासवर्ड bcrypt से hash होते हैं और plaintext में कभी स्टोर नहीं किए जाते।",
+      "infoTwo": "सेशंस JWT टोकन का उपयोग करते हैं — 30 दिनों तक मान्य। Sign out करने पर session अमान्य हो जाता है।",
+      "infoThree": "सभी admin routes authentication मांगते हैं। अनधिकृत प्रयास edge पर रोक दिए जाते हैं।"
+    },
+    "team": {
+      "title": "टीम सदस्य",
+      "members": "{count} सदस्य",
+      "empty": "कोई टीम सदस्य नहीं मिला।",
+      "help": "नई टीम जोड़ने के लिए seed script या MongoDB Compass का उपयोग करें और bcrypt-hashed password वाला नया user document डालें।"
+    },
+    "localization": {
+      "title": "लोकलाइज़ेशन रनटाइम",
+      "description": "सक्रिय भाषाएं, डिफ़ॉल्ट भाषा और translation coverage visibility नियंत्रित करें।",
+      "defaultLocale": "डिफ़ॉल्ट भाषा",
+      "enabledLocales": "सक्रिय भाषाएं",
+      "localeOrder": "भाषा क्रम",
+      "registryTitle": "अनुवाद रजिस्ट्री",
+      "namespace": "नेमस्पेस",
+      "status": "स्थिति",
+      "missing": "गुम keys",
+      "extra": "अतिरिक्त keys",
+      "healthy": "ठीक"
+    },
+    "experience": {
+      "title": "पब्लिक अनुभव टेम्पलेट",
+      "description": "संतुलित क्लासिक प्रस्तुति और प्रीमियम animated प्रस्तुति के बीच चुनें।",
+      "activeTemplate": "सक्रिय टेम्पलेट"
+    },
+    "system": {
+      "systemInfoTitle": "सिस्टम जानकारी",
+      "businessTitle": "बिज़नेस कॉन्फ़िगरेशन",
+      "envHelp": "बिज़नेस कॉन्फ़िगरेशन .env.local में environment variables से नियंत्रित होती है।"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "page": {
+    "eyebrow": "Case Studies",
+    "title": "Conversion-Focused Proof from the Homes Platform",
+    "description": "These stories connect companies, listed properties, and measurable outcomes across advisory, lead capture, and launch positioning."
+  },
+  "card": {
+    "partnerFallback": "Homes Partner",
+    "cta": "Read the full story"
+  },
+  "empty": {
+    "title": "Case studies are being prepared",
+    "description": "Featured proof pages will appear here once published."
+  }
+}

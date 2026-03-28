@@ -1,0 +1,29 @@
+{
+  "enquiry": {
+    "namePlaceholder": "Full Name *",
+    "phonePlaceholder": "Phone / WhatsApp *",
+    "emailPlaceholder": "Email Address (optional)",
+    "messagePlaceholder": "Your message or requirements…",
+    "siteVisit": "I'd like to schedule a site visit",
+    "homeLoan": "I need home loan assistance",
+    "submitting": "Submitting…",
+    "submit": "Send Enquiry",
+    "footer": "We respond within 2–4 hours · No spam, ever.",
+    "successTitle": "Enquiry Received!",
+    "successDescription": "We'll reach out within 2–4 hours on business days.",
+    "successAction": "Submit another enquiry"
+  },
+  "login": {
+    "title": "Welcome back",
+    "description": "Sign in to your admin dashboard",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "emailPlaceholder": "admin@homes.in",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Sign In to Dashboard",
+    "submitting": "Signing in…",
+    "magicTitle": "Test Mode: Magic Login",
+    "magicButton": "Use Magic Login",
+    "botCheck": "Bot Check"
+  }
+}

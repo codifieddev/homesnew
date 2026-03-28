@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "eyebrowVerified": "RERA Verified Properties",
+    "eyebrowLocation": "Lucknow, Uttar Pradesh",
+    "titleLine1": "Find Your",
+    "titleHighlight": "Perfect",
+    "titleLine2": "Property in Lucknow",
+    "description": "Trusted real estate consultancy connecting buyers with verified residential plots, premium villas, and modern apartments — with full legal transparency.",
+    "stats": {
+      "families": "Families Served",
+      "projects": "Active Projects",
+      "verified": "RERA Verified"
+    },
+    "form": {
+      "title": "Interested?",
+      "subtitle": "Drop your details and we'll get back with the best matching properties."
+    }
+  },
+  "portfolio": {
+    "eyebrow": "Our Portfolio",
+    "title": "Featured Projects",
+    "description": "Handpicked residential developments across Lucknow's prime corridors — all RERA registered.",
+    "cta": "View All Projects"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "End-to-End Advisory",
+    "description": "From shortlisting to key handover — we manage every step so you can focus on your decision.",
+    "buy": {
+      "title": "Buy Property",
+      "desc": "Filter verified properties by location, type, and budget. Every listing includes RERA ID, pricing, and legal clearance status — no hidden information.",
+      "cta": "Explore Listings"
+    },
+    "visit": {
+      "title": "Schedule Site Visit",
+      "desc": "Book a guided property walkthrough at a time that suits you. Our agents manage the logistics — transport, entry, and documentation.",
+      "cta": "Book a Slot"
+    },
+    "loan": {
+      "title": "Loan Advisory",
+      "desc": "Access fair, unbiased home loan guidance from partner banks. We compare rates, process documents, and accelerate approvals without upfront fees.",
+      "cta": "Check Eligibility"
+    }
+  },
+  "statsStrip": {
+    "families": "Families Served Across UP",
+    "projects": "RERA Verified Projects",
+    "rating": "Average Client Rating",
+    "response": "Avg. Site Visit Response"
+  },
+  "trust": {
+    "eyebrow": "Why Homes",
+    "titleLine1": "Built on Trust,",
+    "titleHighlight": "and Compliance",
+    "description": "Every property listed on our platform goes through a structured verification process. We believe that buyers deserve full legal clarity before committing to any transaction.",
+    "cards": {
+      "rera": {
+        "title": "RERA Registration Verified",
+        "desc": "Every project carries its UP-RERA registration number, directly linked to the regulatory database."
+      },
+      "legal": {
+        "title": "Title & Legal Clearance",
+        "desc": "Encumbrance status, occupancy certificates, and land-use documents reviewed before listing."
+      },
+      "banks": {
+        "title": "Bank-Approved Projects",
+        "desc": "Listings include loan eligibility — SBI, HDFC, ICICI — reducing financing friction."
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "desc": "Base price, price per sqft, stamp duty estimates, and GST shown upfront — no hidden costs."
+      }
+    },
+    "steps": {
+      "oneTitle": "Share Your Requirements",
+      "oneDesc": "Tell us your location, budget, and property type preference.",
+      "twoTitle": "Get Curated Options",
+      "twoDesc": "We match you with verified properties that fit your exact criteria.",
+      "threeTitle": "Schedule a Site Visit",
+      "threeDesc": "We arrange and escort you through the property walkthrough.",
+      "fourTitle": "Close & Register",
+      "fourDesc": "We assist with documentation, loan processing, and final registration."
+    }
+  },
+  "proof": {
+    "eyebrow": "Proof & Authenticity",
+    "title": "Companies We've Worked With",
+    "description": "Builder partnerships, published listings, and proof-led case studies now live inside the same Homes system, so every brand mention can connect back to real inventory and enquiry conversion.",
+    "companyCta": "Explore company profiles",
+    "caseStudyLabel": "Case Study"
+  },
+  "enquiry": {
+    "eyebrow": "Get In Touch",
+    "titleLine1": "Talk to a Property",
+    "titleLine2": "Expert Today",
+    "description": "Tell us what you're looking for. Our advisors will match you with verified properties and arrange a site visit within 48 hours.",
+    "contact": {
+      "call": "CALL US",
+      "email": "EMAIL",
+      "office": "OFFICE"
+    },
+    "formTitle": "Send an Enquiry",
+    "selectorPlaceholder": "Interested in a specific project?"
+  }
+}

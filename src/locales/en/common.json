@@ -1,0 +1,34 @@
+{
+  "themeToggle": {
+    "toggle": "Toggle theme",
+    "light": "Switch to light mode",
+    "dark": "Switch to dark mode"
+  },
+  "actions": {
+    "save": "Save changes",
+    "clear": "Clear",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "preview": "Preview",
+    "backToEditor": "Back to editor",
+    "signOut": "Sign out",
+    "learnMore": "Learn more",
+    "viewAll": "View all"
+  },
+  "templates": {
+    "classic": {
+      "label": "Classic",
+      "description": "Current restrained presentation with minimal motion."
+    },
+    "immersive": {
+      "label": "Premium Motion",
+      "description": "Glass-rich presentation with ambient motion and hover depth."
+    }
+  },
+  "language": {
+    "label": "Language",
+    "default": "Default",
+    "enabled": "Enabled",
+    "registry": "Translation registry"
+  }
+}

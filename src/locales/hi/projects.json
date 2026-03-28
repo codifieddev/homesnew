@@ -1,0 +1,39 @@
+{
+  "page": {
+    "eyebrow": "सभी प्रोजेक्ट्स",
+    "title": "अपनी प्रॉपर्टी खोजें",
+    "countSummary": "लखनऊ के प्रमुख कॉरिडोर्स में {count} प्रॉपर्टीज।",
+    "emptyTitle": "कोई प्रॉपर्टी नहीं मिली",
+    "emptyDescription": "अपने फ़िल्टर्स बदलें या",
+    "clearAllLink": "सभी फ़िल्टर्स हटाएं"
+  },
+  "filters": {
+    "label": "फ़िल्टर:",
+    "clear": "साफ करें",
+    "type": {
+      "Plot": "प्लॉट",
+      "Apartment": "अपार्टमेंट",
+      "Villa": "विला",
+      "Independent House": "इंडिपेंडेंट हाउस"
+    },
+    "possession": {
+      "Ready to Move": "तुरंत रहने योग्य",
+      "Under Construction": "निर्माणाधीन"
+    },
+    "budgets": {
+      "under50": "₹50L से कम",
+      "50to1": "₹50L–₹1Cr",
+      "1to2": "₹1Cr–₹2Cr",
+      "above2": "₹2Cr+"
+    }
+  },
+  "card": {
+    "featured": "फीचर्ड",
+    "startingFrom": "शुरुआत",
+    "onRequest": "अनुरोध पर",
+    "possession": "पज़ेशन",
+    "area": "एरिया",
+    "config": "कॉन्फ़िगरेशन",
+    "mixedInventory": "मिक्स्ड इन्वेंटरी"
+  }
+}

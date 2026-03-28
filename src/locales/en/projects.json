@@ -1,0 +1,39 @@
+{
+  "page": {
+    "eyebrow": "All Projects",
+    "title": "Find Your Property",
+    "countSummary": "{count} properties across Lucknow's prime corridors.",
+    "emptyTitle": "No properties found",
+    "emptyDescription": "Try adjusting your filters or",
+    "clearAllLink": "clear all filters"
+  },
+  "filters": {
+    "label": "Filter:",
+    "clear": "Clear",
+    "type": {
+      "Plot": "Plot",
+      "Apartment": "Apartment",
+      "Villa": "Villa",
+      "Independent House": "Independent House"
+    },
+    "possession": {
+      "Ready to Move": "Ready to Move",
+      "Under Construction": "Under Construction"
+    },
+    "budgets": {
+      "under50": "Under ₹50L",
+      "50to1": "₹50L–₹1Cr",
+      "1to2": "₹1Cr–₹2Cr",
+      "above2": "₹2Cr+"
+    }
+  },
+  "card": {
+    "featured": "Featured",
+    "startingFrom": "Starting From",
+    "onRequest": "On request",
+    "possession": "Possession",
+    "area": "Area",
+    "config": "Config",
+    "mixedInventory": "Mixed inventory"
+  }
+}
