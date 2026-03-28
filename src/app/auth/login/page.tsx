@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition, Suspense } from "react";
+import { useState, useTransition, Suspense, useEffect } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
@@ -46,14 +46,23 @@ function LoginForm() {
   const [authError, setAuthError] = useState<string | null>(
     urlError === "CredentialsSignin"
       ? "Invalid email or password. Please try again."
-      : null
+      : null,
   );
+  
   const [isPending, startTransition] = useTransition();
+  const [mounted, setMounted] = useState(false);
 
   // Magic Login Bot Protection
-  const [num1] = useState(() => Math.floor(Math.random() * 10) + 1);
-  const [num2] = useState(() => Math.floor(Math.random() * 10) + 1);
+  const [num1, setNum1] = useState<number>(0);
+  const [num2, setNum2] = useState<number>(0);
   const [botAnswer, setBotAnswer] = useState("");
+
+  useEffect(() => {
+    setNum1(Math.floor(Math.random() * 10) + 1);
+    setNum2(Math.floor(Math.random() * 10) + 1);
+    setMounted(true);
+  }, []);
+
   const isHuman = parseInt(botAnswer) === num1 + num2;
 
   const handleMagicLogin = () => {
@@ -250,8 +259,12 @@ function LoginForm() {
                 </p>
                 <div className="flex flex-col gap-3 items-center">
                   <div className="flex items-center gap-3">
-                    <span className="text-sm text-foreground font-medium bg-background px-3 py-1.5 rounded-md border border-border shadow-sm">
-                      Bot Check: {num1} + {num2} = ?
+                    <span className="text-sm text-foreground font-medium bg-background px-3 py-1.5 rounded-md border border-border shadow-sm min-w-[140px] text-center">
+                      {mounted ? (
+                        <>Bot Check: {num1} + {num2} = ?</>
+                      ) : (
+                        <span className="opacity-50">Loading Check...</span>
+                      )}
                     </span>
                     <Input
                       type="number"
