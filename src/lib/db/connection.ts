@@ -1,7 +1,9 @@
 import mongoose, { Mongoose } from "mongoose";
 
 function getMongoUri() {
-  const uri = process.env.NEXT_PUBLIC_MONGODB_URI?.trim();
+  const uri =
+    process.env.MONGODB_URI?.trim() ??
+    process.env.NEXT_PUBLIC_MONGODB_URI?.trim();
 
   if (!uri) {
     throw new Error(
