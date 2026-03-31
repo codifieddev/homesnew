@@ -1,6 +1,14 @@
-.next
+# dependencies
+/node_modules/
 
-node_modules
+# next build output
+/.next/
+/out/
 
-tests
+# local env and OS files
+.env.local
+.env.*.local
+.DS_Store
 
+# TypeScript build state
+*.tsbuildinfo

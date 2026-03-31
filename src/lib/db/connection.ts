@@ -84,13 +84,18 @@ try {
   console.warn("Failed to set custom DNS servers", e);
 }
 
-const MONGODB_URI = process.env.MONGODB_URI!;
+function getMongoUri() {
+  const uri =
+    process.env.MONGODB_URI?.trim() ??
+    process.env.NEXT_PUBLIC_MONGODB_URI?.trim();
 
+  if (!uri) {
+    throw new Error(
+      "MONGODB_URI is not defined. Add it to your deployment environment."
+    );
+  }
 
-if (!MONGODB_URI) {
-  throw new Error(
-    "MONGODB_URI is not defined. Add it to your .env.local file.",
-  );
+  return uri;
 }
 
 /**
@@ -129,13 +134,14 @@ export async function connectDB(): Promise<Mongoose> {
     const opts: mongoose.ConnectOptions = {
       bufferCommands: false,
       maxPoolSize: 10, // Max concurrent connections
-      serverSelectionTimeoutMS: 15000, // Increased from 5000
+      serverSelectionTimeoutMS: 5000,
       socketTimeoutMS: 45000,
       connectTimeoutMS: 15000, // Added
       family: 4, // Force IPv4
     };
 
-    cache.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
+    cache.promise = mongoose.connect(getMongoUri(), opts).then((mongoose) => {
+      console.log("✅ MongoDB connected successfully");
       return mongoose;
     });
   }
